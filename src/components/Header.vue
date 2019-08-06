@@ -4,14 +4,14 @@
   >
     <div>
       <h2 class=" logo">
-        aec startups
+        script repository test
       </h2>
       <p class=" logo-subtitle">
-        <em>shiny startups in the aec space</em>
+        <em>script repository</em>
       </p>
     </div>
     <h1 class="mr-2">
-      <a href="https://airtable.com/shrLpxcEdauXQcecZ" target="blank">+</a>
+      <a href="https://airtable.com/shrLpxcEdauXQcecZ" target="blank">add script</a>
     </h1>
   </div>
 </template>

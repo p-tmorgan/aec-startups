@@ -13,10 +13,16 @@
       </div>
       <div class="info-box">
         <p class="title">{{ title }}</p>
-        <p class="location">{{ location }}</p>
+        <a v-if="website" :href="website" target="blank" class="card-link"
+              >Download</a
+            >
+        <p class="docs">Documentation</p>
+        <p class="location">Author: {{ location }}</p>
+        <p class="created">Date: {{ created_on }}</p>
         <p class="description">{{ description }}</p>
+        <p class="tags">{{ tags }}</p>
       </div>
-      <div class="details-box">
+<!--       <div class="details-box">
         <p>
           <span class="label">Funding</span>
           {{ funding || '-' }}
@@ -37,7 +43,7 @@
             >
           </li>
         </ul>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -51,10 +57,11 @@ export default {
     'description',
     'website',
     'image',
-    'crunchbase',
-    'funding',
+    'created_on',
+    // 'crunchbase',
+    // 'funding',
     'tags',
-    'industries',
+    // 'industries',
     'location'
   ],
   data: () => {
@@ -107,8 +114,8 @@ export default {
 
   .logo {
     @include media-breakpoint-up(sm) {
-      width: 13rem;
-      height: 11rem;
+      width: 10rem;
+      height: 15rem;
     }
     width: 30rem;
     height: 10rem;
@@ -130,7 +137,7 @@ export default {
 
     width: 22rem;
     @include media-breakpoint-up(sm) {
-      width: 16rem;
+      width: 10rem;
       padding-top: 0.5rem;
     }
 

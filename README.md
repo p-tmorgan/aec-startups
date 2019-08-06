@@ -1,6 +1,10 @@
+# Notes
+
+My edits to Aec Startups.  Undocumented.
+
 # Aec Startups
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/febae95e-84d3-4b49-a269-d696fe56de36/deploy-status)](https://app.netlify.com/sites/aecstartups/deploys)
+<!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/febae95e-84d3-4b49-a269-d696fe56de36/deploy-status)](https://app.netlify.com/sites/aecstartups/deploys) -->
 
 
 A collection of shiny AEC Startups

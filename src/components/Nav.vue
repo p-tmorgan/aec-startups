@@ -26,13 +26,18 @@
       </div>
     </div>
     <hr />
-    <p class="sidebar-link">
-      <!-- <img src="@/assets/imgs/twitter.svg" /> -->
+    <!-- <p class="sidebar-link">
+      Database Source
+      <img src="@/assets/imgs/twitter.svg" />
       <a href="https://twitter.com/aec_startups">Follow @aec_startups</a>
+    </p> -->
+    <p class="sidebar-link">
+      Wiki
+      <!-- <img src="@/assets/imgs/github.svg" /> -->
+ <!--      <a href="https://github.com/gtalarico/aec-startups">Contibute</a> -->
     </p>
     <p class="sidebar-link">
-      <!-- <img src="@/assets/imgs/github.svg" /> -->
-      <a href="https://github.com/gtalarico/aec-startups">Contibute</a>
+      Adapted from @aec_startups
     </p>
   </div>
 </template>
